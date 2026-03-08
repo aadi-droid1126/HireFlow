@@ -76,6 +76,16 @@ const userSchema = new mongoose.Schema(
         ref: "Job",
       },
     ],
+
+    // 🔐 PASSWORD RESET OTP (NEW)
+    resetOtp: {
+      type: String,
+      default: null,
+    },
+    resetOtpExpiry: {
+      type: Date,
+      default: null,
+    },
   },
   { timestamps: true },
 );

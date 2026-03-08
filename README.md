@@ -87,53 +87,103 @@ Designed as a **portfolio-grade full-stack system** showcasing scalable backend 
 
 ## 📂 Project Structure
 
-./.vscode/settings.json
-./backend/.env
-./backend/.gitignore
-./backend/config/db.js
-./backend/constants/roles.js
-./backend/controllers/applicationController.js
-./backend/controllers/authController.js
-./backend/controllers/jobController.js
-./backend/controllers/userController.js
-./backend/docs/api.md
-./backend/middleware/authMiddleware.js
-./backend/middleware/errorMiddleware.js
-./backend/middleware/notFoundMiddleware.js
-./backend/middleware/roleMiddleware.js
-./backend/models/Application.js
-./backend/models/Job.js
-./backend/models/User.js
-./backend/package-lock.json
-./backend/package.json
-./backend/routes/applicationRoutes.js
-./backend/routes/authRoutes.js
-./backend/routes/jobRoutes.js
-./backend/routes/userRoutes.js
-./backend/server.js
-./backend/services/applicationService.js
-./backend/services/authService.js
-./backend/services/jobService.js
-./backend/utils/generateToken.js
-./backend/utils/validators.js
-./frontend/.env
-./frontend/.gitignore
-./frontend/index.html
-./frontend/package-lock.json
-./frontend/package.json
-./frontend/postcss.config.js
-./frontend/public/logo.svg
-./frontend/src/App.jsx
-./frontend/src/index.css
-./frontend/src/main.jsx
-./frontend/tailwind.config.js
-./frontend/vite.config.js
-./open-browser.js
-./package-lock.json
-./package.json
-./README.md
-./scripts/dev-runner.js
-./scripts/doctor.js
+HireFlow
+├── .gitignore
+├── .vscode
+│ └── settings.json
+├── backend
+│ ├── .env
+│ ├── .gitignore
+│ ├── config
+│ │ └── db.js
+│ ├── constants
+│ │ └── roles.js
+│ ├── controllers
+│ │ ├── applicationController.js
+│ │ ├── authController.js
+│ │ ├── jobController.js
+│ │ └── userController.js
+│ ├── docs
+│ │ └── api.md
+│ ├── middleware
+│ │ ├── authMiddleware.js
+│ │ ├── errorMiddleware.js
+│ │ ├── notFoundMiddleware.js
+│ │ └── roleMiddleware.js
+│ ├── models
+│ │ ├── Application.js
+│ │ ├── Job.js
+│ │ └── User.js
+│ ├── package-lock.json
+│ ├── package.json
+│ ├── routes
+│ │ ├── applicationRoutes.js
+│ │ ├── authRoutes.js
+│ │ ├── jobRoutes.js
+│ │ └── userRoutes.js
+│ ├── server.js
+│ ├── services
+│ │ ├── applicationService.js
+│ │ ├── authService.js
+│ │ ├── jobService.js
+│ │ └── userService.js
+│ └── utils
+│ ├── generateToken.js
+│ └── validators.js
+├── frontend
+│ ├── .env
+│ ├── .gitignore
+│ ├── index.html
+│ ├── package-lock.json
+│ ├── package.json
+│ ├── postcss.config.js
+│ ├── public
+│ │ └── logo.svg
+│ ├── src
+│ │ ├── App.jsx
+│ │ ├── assets
+│ │ │ ├── api
+│ │ │ │ └── axios.js
+│ │ │ ├── components
+│ │ │ │ ├── Footer.jsx
+│ │ │ │ ├── JobCard.jsx
+│ │ │ │ ├── Navbar.jsx
+│ │ │ │ ├── ProtectedRoute.jsx
+│ │ │ │ └── SkeletonCard.jsx
+│ │ │ ├── context
+│ │ │ │ └── AuthContext.jsx
+│ │ │ ├── layouts
+│ │ │ │ └── MainLayout.jsx
+│ │ │ ├── pages
+│ │ │ │ ├── Applications.jsx
+│ │ │ │ ├── Dashboard.jsx
+│ │ │ │ ├── Home.jsx
+│ │ │ │ ├── JobDetails.jsx
+│ │ │ │ ├── Login.jsx
+│ │ │ │ ├── PostJob.jsx
+│ │ │ │ ├── Profile.jsx
+│ │ │ │ ├── Recruiters.jsx
+│ │ │ │ ├── Register.jsx
+│ │ │ │ ├── Saved.jsx
+│ │ │ │ ├── Shortlist.jsx
+│ │ │ │ └── UserProfile.jsx
+│ │ │ ├── routes
+│ │ │ │ └── AppRoutes.jsx
+│ │ │ ├── styles
+│ │ │ │ └── global.css
+│ │ │ └── utils
+│ │ │ └── helpers.jsx
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── tailwind.config.js
+│ └── vite.config.js
+├── open-browser.js
+├── package-lock.json
+├── package.json
+├── README.md
+└── scripts
+├── dev-runner.js
+└── doctor.js
 
 ---
 

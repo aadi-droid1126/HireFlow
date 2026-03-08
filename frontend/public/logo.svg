@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-  </defs>
+<svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="120" height="120" rx="26" fill="#0f172a"/>
-  
-  <text x="60" y="78"
-        font-size="60"
-        text-anchor="middle"
-        fill="url(#g)"
-        font-family="Inter, sans-serif"
-        font-weight="900">
-    JP
-  </text>
+  <!-- Person head -->
+  <circle cx="35" cy="30" r="10" fill="#1d4ed8"/>
+
+  <!-- Person body -->
+  <path d="M20 55 C20 45 50 45 50 55 L50 65 L20 65 Z" fill="#1d4ed8"/>
+
+  <!-- Growth bars -->
+  <rect x="55" y="40" width="6" height="15" fill="#3b82f6"/>
+  <rect x="65" y="35" width="6" height="20" fill="#2563eb"/>
+  <rect x="75" y="30" width="6" height="25" fill="#1d4ed8"/>
+
+  <!-- Check swoosh -->
+  <path d="M18 60 Q45 80 80 50" stroke="#f97316" stroke-width="8" fill="none" stroke-linecap="round"/>
+
 </svg>
